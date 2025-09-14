@@ -1,0 +1,55 @@
+/* universal selector */
+/* typically not used unless for resetting styles */
+/* * {
+    font-family: monospace;
+} */
+
+html {
+    font-size: 22px;
+}
+
+/* element selector */
+body {
+    
+}
+
+main {
+    font-family: monospace;
+}
+
+/* form elements don't typically inherit font settings */
+button, input, textarea, select {
+    font: inherit;
+}
+
+/* grouping selectors */
+/* if we removed the comma, it would only look for h2s inside of h1 */
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+/* will turn color red because it was the most recently read style */
+p {
+    color: red;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* class selector */
+/* class selectors override element selectors */
+.gray {
+    color: gray
+}
+
+/* id selector */
+/* id should be unique */
+#second {
+    font-style: italic;
+}
