@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%; /* using the 100% instead of vw because vw can cause horizontal scrollbars to appear */
+    min-height: 100vh; /* using min-height instead of height to prevent overflow issues
+}
+
+p {
+    font-size: 16px; /* px is the most commonly used absolute unit */
+    font-size: 2rem; /* rem is a relative unit, it is relative to the root element (html) */
+    width: 40ch; /* ch is a relative unit, it is relative to the width of the "0" character in the font being used, so this will be 40 char wide at most*/
+    
+}
+
+header {
+    width: 50%; /
+}
+
+main {
+    width: 50%;
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+h1 {
+    border: 2px dashed red; /* making so we can see it clearly */
+    width: 50%; /* because it is a block element, it will take up the full width of its container by default */
+    /* also because h1 is a child of header, it will actually be 50% of 50% */
+    font-size: 3rem;
+    padding: 1em; /* em is a relative unit, it is relative to the font-size of the element it is used on, so this will be 3rem */
+}

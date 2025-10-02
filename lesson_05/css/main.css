@@ -1,0 +1,32 @@
+* {
+    /* css reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* using border-box so padding and borders are included in the width and height of elements */
+}
+
+
+.container {
+    border: 10px double red; /* making so we can see it clearly */
+    /* just goofing here */
+    /* border-top-color: blue;
+    border-right: 10px dotted blue; */
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em 2em 2em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+    /* will put the outline inside the box */
+    /* outline-offset: -20px; */
+} 
+
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}

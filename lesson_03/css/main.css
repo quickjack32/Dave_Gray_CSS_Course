@@ -1,0 +1,13 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: plum; /* sets the background color of the body of the page */
+    background: palegreen; /* this will override the previous background-color property */
+    color: gray; /* sets the text color */
+    /* for color, can also do rgb(x, y, z) or hex #xxxxxx among others */
+}
+
+p {
+    color: rgb(0,0,0); /* overrides the color set in the body for paragraphs*/
+}
