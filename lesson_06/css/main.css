@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    /* text-decoration: line-through; */
+    /* text-transform: uppercase */
+    /* text-align: justify; like a newspaper column */
+    text-indent: 2em;
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 0.1em; */
+    /* font-weight: 300; normal 300-400 */
+    font-style: italic;
+    /* font-family: sans-serif; typical for the web */
+    font-family: "Roboto", sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; will look for courier new, then courier if not existing, ... */
+}
