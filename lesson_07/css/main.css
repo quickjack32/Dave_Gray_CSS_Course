@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+a {
+    color: hsl(207, 44%, 49%);
+}
+
+/* pseudo-classes */
+/* remember: specificity and order matter! */
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    /* color: dodgerblue; */
+    /* color: hsl(189, 44%, 49%); /* this will make it so it's a similar color in the family */
+    /* opacity: 0.7; */
+    color: hsl(207, 44%, 49%, 0.7); /* can add opacity to hsl via alpha channel */
+}
+
+a:active {
+    color: red;
+}
